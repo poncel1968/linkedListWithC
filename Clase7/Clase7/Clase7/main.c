@@ -5,21 +5,29 @@
 int main()
 {
 
-    char usuario[9];
-    char clave[9];
-    char aux[]="admin\n";
-    int comparacion;
+    char usuario[15];
+  //  char clave[9];
+ //   char aux[]="admin\n";
+    //char auxPasword[]="admin\n";
+   // int comparacion;
+    int tamString;
 
     printf("ingrese usuario \n");
-    fgets(usuario,9,stdin);
-    printf("ingrese clave \n");
     __fpurge(stdin);
-    fgets(clave,9,stdin);
+    fgets(usuario,9,stdin);
+   // printf("ingrese clave \n");
+   // __fpurge(stdin);
+   // fgets(clave,9,stdin);
 
+    tamString=strlen(usuario);
+    printf("Tamaño de string de usuario es : %d \n",tamString);
+    printf("Usuario %s",usuario);
+
+/*
     comparacion=strcmp(usuario, aux);
     printf("comparacion :  %d \n",comparacion);
 
-    if (strcmp(usuario, aux)==0)
+    if (strcmp(usuario, aux)==0 && strcmp(clave,auxPasword)==0)
     {
         printf("Ingreso");
     }
@@ -30,7 +38,6 @@ int main()
     }
 
 
-    /*
     char nombre[10];
     char apellido[10];
     char localidad[10];
