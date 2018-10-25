@@ -1,0 +1,200 @@
+# depslib dependency file v1.0
+1538669302 source:c:\users\joaquin\desktop\nuevoejercicio\ejercicioparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"usuario.h"
+
+1538841705 "
+
+1538662690 c:\users\joaquin\desktop\nuevoejercicio\ejercicioparcial1\utn.h
+
+1538669302 source:c:\users\joaquin\desktop\nuevoejercicio\ejercicioparcial1\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"usuario.h"
+	"utn.h"
+
+1538668561 c:\users\joaquin\desktop\nuevoejercicio\ejercicioparcial1\usuario.h
+
+1538669028 source:c:\users\joaquin\desktop\nuevoejercicio\ejercicioparcial1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538669028 
+
+1538699205 source:/home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"usuario.h"
+	"clientes.h"
+	"ventas.h"
+
+1538671407 /home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/utn.h
+
+1538671407 /home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/usuario.h
+
+1538691525 source:/home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"usuario.h"
+	"utn.h"
+
+1538671407 source:/home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538697897 source:/home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+
+1538945054 h"
+
+1538700132 /home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/clientes.h
+	"ventas.h"
+
+1538699827 source:/home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"ventas.h"
+
+1538693851 source:/home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/afiches.c
+
+1538698660 /home/alumno/Descargas/LABORATORIO_I-master/NuevoEjercicio/ejercicioParcial1/ventas.h
+
+1538837401 source:c:\users\joaquin\desktop\parcial\ejercicioparcial1\afiches.c
+
+1538939696 source:c:\users\joaquin\desktop\parcial\ejercicioparcial1\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"ventas.h"
+
+1538841511 c:\users\joaquin\desktop\parcial\ejercicioparcial1\utn.h
+
+1538854823 c:\users\joaquin\desktop\parcial\ejercicioparcial1\clientes.h
+	"ventas.h"
+
+1538858563 c:\users\joaquin\desktop\parcial\ejercicioparcial1\ventas.h
+
+1538944923 source:c:\users\joaquin\desktop\parcial\ejercicioparcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"ventas.h"
+	"listados.h"
+
+1538837401 c:\users\joaquin\desktop\parcial\ejercicioparcial1\usuario.h
+
+1538841705 source:c:\users\joaquin\desktop\parcial\ejercicioparcial1\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"usuario.h"
+	"utn.h"
+
+1538841525 source:c:\users\joaquin\desktop\parcial\ejercicioparcial1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1538858723 source:c:\users\joaquin\desktop\parcial\ejercicioparcial1\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"ventas.h"
+	"clientes.h"
+
+1538945054 source:c:\users\joaquin\desktop\parcial\ejercicioparcial1\listados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"ventas.h"
+	"listados.h"
+
+1538941800 c:\users\joaquin\desktop\parcial\ejercicioparcial1\listados.h
+
+1539026523 source:/home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/afiches.c
+
+1539120344 source:/home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"ventas.h"
+
+1539026523 /home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/utn.h
+
+1539026523 /home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/clientes.h
+	"ventas.h"
+
+1539026523 /home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/ventas.h
+
+1539128080 source:/home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/listados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"ventas.h"
+	"listados.h"
+
+1539126899 /home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/listados.h
+
+1539128180 source:/home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"ventas.h"
+	"listados.h"
+
+1539026523 source:/home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"usuario.h"
+	"utn.h"
+
+1539026523 /home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/usuario.h
+
+1539026523 source:/home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1539026523 source:/home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"ventas.h"
+	"clientes.h"
+
+1539122984 /home/alumno/Descargas/LABORATORIO_I-master/PARCIAL/ejercicioParcial1/informes.h
+
