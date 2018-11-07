@@ -455,23 +455,33 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
 {
 
     int returnAux = -1;
-    int i;
     int contador=0;
+    int i;
 
-    if(this != NULL && this2 !=NULL && ll_len(this)>=ll_len(this2))
+
+
+    if (this != NULL && this2 != NULL)
     {
-            for(i=0;i<ll_len(this);i++)
+        Node* pNodeAux = this2->pFirstNode;
+
+        for(i=0;i<ll_len(this2);i++)
+        {
+            if ((ll_contains(this, pNodeAux->pElement)) == 1 )
             {
-                contador=contador+(ll_contains(this,(ll_get(this2,i))));
+                contador++;
             }
-            if (contador==ll_len(this2))
-            {
-                returnAux=1;
-            }
-            else
-            {
-                returnAux=0;
-            }
+            pNodeAux=pNodeAux->pNextNode;
+
+        }
+
+        if (contador==ll_len(this2) && contador >0)
+        {
+            returnAux = 1;
+        }
+        else
+        {
+            returnAux = 0;
+        }
     }
 
     return returnAux;
@@ -490,6 +500,29 @@ int ll_containsAll(LinkedList* this,LinkedList* this2)
 LinkedList* ll_subList(LinkedList* this,int from,int to)
 {
     LinkedList* cloneArray = NULL;
+    int auxIndex=from;
+   // Node* auxNode=NULL;
+    int i;
+
+    if(from>=0 && to < ll_len(this) && this != NULL && from < to)
+    {
+        cloneArray = ll_newLinkedList();
+
+        for(i=0;i<(to-from);i++)
+        {
+
+            if (i==0)
+            {
+                cloneArray->pFirstNode=getNode(this,auxIndex);
+            }
+
+            addNode(cloneArray, i,ll_get(this,auxIndex));
+            auxIndex=auxIndex+1;
+        }
+
+        cloneArray->size= (to-from)+1;
+
+    }
 
     return cloneArray;
 }
